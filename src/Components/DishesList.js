@@ -86,7 +86,6 @@ export default class DishItem extends React.Component {
   }
 
   render() {
-    console.log(this.state.Dishes);
     return (
       <FlatList
         data={this.state.Dishes}
